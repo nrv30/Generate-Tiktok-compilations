@@ -6,7 +6,7 @@ download ffmpeg <https://ffmpeg.org/download.html>
 
 Step 1: Download videos just using right-click download. Only works on some users
 
-Step 2: Make two folders, Left and Center. Drop even number of files to both folders.
+Step 2: Make two folders, Left and Center. Drop even number of files to both folders. (create project folders easily with scirpt `make_template_project.ps1` and/or  `make_template_project_as_seperate_process.ps1`)
 
 step 3: standardize the framerate of videos with `batch_fix_framerate.ps1` set the fps in src of  `fix_framerate.ps1 ` (default is 30 which is good)
 
