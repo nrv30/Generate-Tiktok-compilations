@@ -18,4 +18,5 @@ step 7: horizontally stack the left, center, and right videos using `hstack_Simp
 
 step 8: add audio using `add_audio.ps1`
 
+generate thumbnail using `generate_thumbnail.ps1`
 
