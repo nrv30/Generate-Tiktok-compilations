@@ -8,7 +8,7 @@ Step 2: Make two folders, Left and Center. Drop even number of files to both fol
 
 step 3: standardize the framerate of videos with `batch_fix_framerate.ps1` set the fps in src of  `fix_framerate.ps1 ` (default is 30 which is good)
 
-step 4. build the file needed to concetenate images with `build_concatDemux_File.ps1` 
+step 4. build the file needed to concetenate images with `build_concatDemux_file.ps1` 
 
 Step 5: concatenate videos in same folder together using `concat.ps1`
 
