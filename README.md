@@ -1,6 +1,8 @@
 # Generate Tiktok-compilations
 scripts that can be used to generate tiktok compilations with ffmpeg
 
+download ffmpeg <https://ffmpeg.org/download.html>
+
 
 Step 1: Download videos just using right-click download. Only works on some users
 
