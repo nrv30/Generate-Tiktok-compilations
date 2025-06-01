@@ -1,5 +1,5 @@
-#takes all video files in a directory and decreases their width by 1/3
-param($dirPath)
+#takes all video files in a directory and changes their width to $width
+param($dirPath, $width)
 $paths = [System.Collections.Generic.List[string]]@()
 $count = 0
 $widths = [System.Collections.Generic.List[string]]@()
@@ -20,5 +20,3 @@ for ($i = 1; $i -le $count; $i++) {
     $width = $widths[$i-1]/3
     ffmpeg -i $paths[$i-1] -vf scale=$width -c:a copy $name
 }
-
-# ffmpeg -i $paths[0] -vf scale=widths[0]/3:-1 -c:a copy $name
